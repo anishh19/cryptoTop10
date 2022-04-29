@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import Box from "./components/box"
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>
+          CryptoTop10
+        </h1>
       </header>
+      <Box rank="1" name="Bitcoin" price="40000"/>
+      <Box rank="2" name="Ethereum" price="2800"/>
+      <Box rank="3" name="BNB" price="400"/>
+      <Box rank="4" name="Solana" price="99"/>
+      <Box rank="5" name="XRP" price="0.64"/>
+      <Box rank="6" name="Terra" price="89"/>
+     
     </div>
   );
 }
