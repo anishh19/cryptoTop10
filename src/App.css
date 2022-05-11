@@ -1,5 +1,5 @@
 div{
-  background-color: white;
+  background-image: linear-gradient(0deg, #1A1536, #2F2950);
 }
 
 .App {
@@ -12,10 +12,11 @@ div{
   display: inline-block;
   padding: 20px;
   margin: 10px;
-  border: solid 10px #282c34;
+  border: #1A1536 solid 10px;
   border-radius: 10%;
-  color: #282c34;
+  color: #1A1536;
   font-size:medium;
+  background-image: linear-gradient(180deg, #0dcdc0, #016861);
   
 
 }
@@ -29,7 +30,7 @@ div{
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1A1536;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,5 +53,5 @@ div{
 }
 
 body{
-  background-color: #282c34;
+  background-color: #2F2950;
 };
