@@ -3,7 +3,7 @@
 
 A basic web app created using react that displays the top 10 current cryptocurrencies according to Market Cap.
 
-A free API by Coingecko has been uses to fetch the data.
+A free API by Coingecko has been used to fetch the data.
 
 
 Currently deployed at: 
